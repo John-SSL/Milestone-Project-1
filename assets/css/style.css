@@ -1,0 +1,13 @@
+
+/* Google fonts Roboto and Paprika */
+@import url('https://fonts.googleapis.com/css2?family=Paprika&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS variables */
+:root {
+    --primary-font:"Roboto", sans-sefir;
+    --secondary-font:"Paprika", cursive;
+    --primary-color:#2b2d42; /* dark blue */
+    --secondary-color:#ef233c; /* red */
+    --highlight-color:#8d99ae; /* light grey */
+    --highlight-color-light:#edf2f4; /* very light grey */
+}
