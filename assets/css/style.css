@@ -11,3 +11,31 @@
     --highlight-color:#8d99ae; /* light grey */
     --highlight-color-light:#edf2f4; /* very light grey */
 }
+
+/* Global style */
+
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+}
+
+/* Navigation bar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+/* Footer / Contact us */
+
+#contact {
+    background-color: var(--primary-color);
+}
+
+#contact h2 {
+    color: white;
+}
