@@ -40,6 +40,18 @@ h3 {
     color: white;
 }
 
+/* Reasons section */
+
+#reasons i {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+#reasons .card {
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
 /* Footer / Contact us */
 
 #contact {
