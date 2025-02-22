@@ -30,6 +30,16 @@ h3 {
     background-color: var(--primary-color);
 }
 
+/* Header section */
+
+#header {
+    background: #8d99ae;
+    height: 35vh;
+    display: flex;
+    align-items: end;
+    color: white;
+}
+
 /* Footer / Contact us */
 
 #contact {
