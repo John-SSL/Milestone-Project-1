@@ -76,6 +76,13 @@ h3 {
     margin: 0.5rem 0 0 0.5rem;
 }
 
+/* Gallery section */
+
+#gallery img {
+    border: solid 2px white;
+    padding: 0;
+}
+
 /* Footer / Contact us */
 
 #contact {
