@@ -61,8 +61,11 @@ h3 {
     border: none;
 }
 
-#reasons img {
-   
+/* Tours section */
+
+#tours .card {
+    margin-bottom: 1.5rem;
+    padding-left: 0;
 }
 
 /* Footer / Contact us */
