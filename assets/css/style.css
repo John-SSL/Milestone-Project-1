@@ -24,6 +24,10 @@ h3 {
     font-family: var(--secondary-font);
 }
 
+.lead {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+}
 /* Navigation bar */
 
 #navbar {
