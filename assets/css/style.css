@@ -65,7 +65,11 @@ h3 {
 
 #tours .card {
     margin-bottom: 1.5rem;
-    padding-left: 0;
+}
+
+/* Custom margin for card-body */
+.spacer {
+    margin: 0.5rem 0 0 0.5rem;
 }
 
 /* Footer / Contact us */
@@ -86,4 +90,12 @@ h3 {
 
 .social-links i {
     font-size: 1.5rem;
+}
+
+/* Media queries */
+
+/* Medium devices (tablets, 768px and up) */
+@media screem and (min-width:768px) {
+    #tours .card {
+    }
 }
