@@ -64,7 +64,7 @@ h3 {
 /* Header section */
 
 #header {
-    background:url(../css/images/header.webp) no-repeat center center/cover;
+    background:url(../images/header.webp) no-repeat center center/cover;
     height: 35vh;
     display: flex;
     align-items: end;
@@ -128,12 +128,4 @@ h3 {
 
 .social-links i {
     font-size: 1.5rem;
-}
-
-/* Media queries */
-
-/* Medium devices (tablets, 768px and up) */
-@media screem and (min-width:768px) {
-    #tours .card {
-    }
 }
