@@ -126,6 +126,10 @@ h3 {
     margin-right: 15px;
 }
 
-.social-links i {
-    font-size: 1.5rem;
+#contact .social-links i {
+    font-size: 1.6rem;
+}
+
+#contact .social-links i:hover {
+    color: var(--highlight-color-light);
 }
