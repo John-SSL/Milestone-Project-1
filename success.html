@@ -52,68 +52,16 @@
         </div>
     </nav>
 
-    <!-- Header section -->
-    <header class="container">
-        <div class="row justify-content-center mt-4">
-            <div class="col-12 col-md-8 text-center text-xl-start">
-                <h1>London Tours</h1>
-                <p class="lead">Book Your London Adventure Today!</p>
-                <p class="my-4">
-                    Fill out the form below to secure your spot on one of our unique themed tours. Once your booking is
-                    confirmed, you'll receive an email with all the details, including your meeting point and what to
-                    expect. If you have any special requests or questions, feel free to reach out—we’re happy to help!
-                </p>
-            </div>
-        </div>
-    </header>
-
-
     <!-- Main section for semantic purpose -->
     <main>
-        <!-- Booking form section -->
-        <section id="booking-form" class="container section">
-            <div class="row justify-content-center my-4">
-                <div class="col-12 col-md-8">
-                    <h2 class="mb-4">Book a Guided Tour</h2>
-                    <form action="success.html" method="GET">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input class="form-control" id="name" name="name" type="text" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input class="form-control" id="email" name="email" type="email" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="phone" class="form-label">Phone number</label>
-                                <input class="form-control" id="phone" name="phone" type="number" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="tour" class="form-label">Tour</label>
-                                <select id="tour" class="form-select" name="tour" required>
-                                    <option value="" selected>Select</option>
-                                    <option value="thames-secrets">Thames Secrets</option>
-                                    <option value="hidden-london">Hidden London</option>
-                                    <option value="writers-walk">Writer’s Walk</option>
-                                    <option value="food-safari">Food Safari</option>
-                                    <option value="london-rogues">London Rogues</option>
-                                    <option value="rock-legends">Rock Legends</option>
-                                    <option value="film-locations">Film Locations</option>
-                                    <option value="royal-london">Royal London</option>
-                                </select>
-                            </div>
-                            <div class="col-12 mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
-                            </div>
-                        </div>
-
-                        <button type="submit" class="btn custom-button-outline">Submit</button>
-                    </form>
-                </div>
+        <!-- Success message for booking form -->
+        <div class="row justify-content-center mt-4">
+            <div class="col-12 col-md-8">
+              <h1 class="display-3">Thank you!</h1>
+              <p class="lead">Your form has been submitted successfully!</p>
+              <a href="index.html" class="btn custom-button-outline mb-5">Return to the home page</a>
             </div>
-        </section>
+          </div>
     </main>
 
 
