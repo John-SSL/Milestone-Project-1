@@ -7,7 +7,7 @@ The main project goal is to showcase my abilities to build a website that is res
 #### As a business
 London Tours is a made up business that offers guided tours in London. The goal as a small business is to increase the number of customers.
 
-### Desing Choices
+### Design Choices
 The layout was inspired by the BoardWalk Games project from the Code Institute.
 Some of the style choices for this project:
 #### Colour pallet:
@@ -99,7 +99,7 @@ To deploy the website on gitHub:
 
 Once those settings were saved the website deployed a couple of seconds after.
 ## Credits
-* The project was created using The Codes Institue's template.
+* The project was created using The Codes Institute's template.
 * The color pallet was chosen from [coloors.co](https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c)
 * The fonts were imported form Google fonts
 * All images were created with ChatGPT
