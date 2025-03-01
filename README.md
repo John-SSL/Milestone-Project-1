@@ -1,131 +1,101 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome John Lohoba,
+## UX
+### Project Goals
+#### As a developer
+The main project goal is to showcase my abilities to build a website that is responsive for different size screens and follows the best practices for web development. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+#### As a business
+London Tours is a made up business that offers guided tours in London. The goal as a small business is to increase the number of customers.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+### Desing Choices
+The layout was inspired by the BoardWalk Games project from the Code Institute.
+Some of the style choices for this project:
+#### Colour pallet:
+* Primary colour; #2b2d42.
+* Secondary colour; #ef233c.
+* Highlight colour; #8d99ae.
+* Highlight colour light; #edf2f4.
+#### Fonts:
+The font were imported from google fonts
+* Roboto as the primary font for the body.
+* Paprika as the secondary font for headings and lead texts.
+#### For the website to be responsive 3 different breakpoints were chosen using Bootstrap's grid system.
+### User Stories
+1. As a user, I need easy navigation and user-friendly design, so I can find information quickly.
+  - Acceptance Criteria: 
+    * The website is responsive across various screen sizes.
+    * The layout and navigation are intuitive
+  - Tasks:
+    * Apply responsive design using Bootstrap.
+    * Arrange the navigation based on best practices.
+2. As a tourist, I want a selection of different tours with various themes so I can book a tour that matches my personal interests.
+  - Acceptance Criteria: 
+    * The website has a separate page for the list of different guided tours.
+    * Use card components for consistency in layout and responsiveness.
+  - Tasks:
+    * Create a Tours page featuring all different tour themes.
+3. As a Customer, I need to find essential information such as location, contact details and duration of each tour so I can plan my visit in the most efficient manner.
+  - Acceptance Criteria: 
+    * The website contains a dedicated section for contact details and location.
+    * The tour section should clearly display the duration and price of each tour.
+  - Tasks:
+    * Design and place a section for location and contact details.
+    * Ensure that each card displays the duration and price of each tour.
+4. As a customer, I want to be able to book a tour easily without frustration.
+  - Acceptance Criteria: 
+    * A booking form that includes all necessary fields.
+    * All fields must be completed before the user can submit the form.
+    * The user must receive feedback when the form is completed correctly.
+  - Tasks:
+    * Implement a booking form from Bootstrap.
+    * Implement HTML validation on the form.
+    * Create a success page to direct users after the form is submitted correctly.
 
-## Gitpod Reminders
+## Technologies Used
+I used Git pod, a cloud based IDE, to create this project. After every change I would save and upload the code to gitHub using the git commands in the terminal.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The languages used were HTML and CSS. Also used Bootstrap cards, navbar and its grid system for responsiveness on different size screens.
+## Testing
+### Manual Testing
+All internal links were tested manually. Checked that all navbar items sent you to the correct page and that all the CTA buttons took you to the booking form. Checked that all form sections had to be filled out and in the correct manner.
 
-`python3 -m http.server`
+To ensure a responsive design all layouts were checked for different size screens.
+### Automatic Testing
+W3C Markup Validation service used on all HTML pages and received no errors.
 
-A blue button should appear to click: _Make Public_,
+![alt text](assets/test-images/w3html.png)
 
-Another blue button should appear to click: _Open Browser_.
+W3C CSS Validation service used on the style.css sheet and received no errors.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+![alt text](assets/test-images/w3css.png)
 
-A blue button should appear to click: _Make Public_,
+Used Lighthouse in the chrome developer tools to test performance, accessibility and best practices. This gave me a good overall score.
 
-Another blue button should appear to click: _Open Browser_.
+![alt text](assets/test-images/lighthouse-score.png)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The only error received on the accessibility section was an insufficient contrast ratio between the background and the foreground colors of the buttons.
 
-To log into the Heroku toolbelt CLI:
+![alt text](assets/test-images/lighthouse-accessibility-error.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+This was tested again using webaim.org. The contrast passed for graphical objects and user interface components. Since these colours were used for button components I decided to leave them.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+![alt text](assets/test-images/contrast-checker.png)
+## Deployment
+The website was deployed with gitHub. For this I used Gitpod as a cloud based IDE to build the site, then I would use git commands to save and upload my work onto gitHub.
 
-### Connecting your Mongo database
+To deploy the website on gitHub:
+* I opened my project in gitHub
+* Went to settings
+* I settings select Pages in the code and automation section
+* Selected main as the branch
+* Select root as the folder
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Once those settings were saved the website deployed a couple of seconds after.
+## Credits
+* The project was created using The Codes Institue's template.
+* The color pallet was chosen from
+* The fonts were imported form Google fonts
+* All images were created with ChatGPT
+* All images were optimized for web with 
+* All favicons were imported from
+* The logo was created using persons template from Canva
