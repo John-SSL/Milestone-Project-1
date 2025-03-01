@@ -19,7 +19,6 @@ Some of the style choices for this project:
 The font were imported from google fonts
 * Roboto as the primary font for the body.
 * Paprika as the secondary font for headings and lead texts.
-#### For the website to be responsive 3 different breakpoints were chosen using Bootstrap's grid system.
 ### User Stories
 1. As a user, I need easy navigation and user-friendly design, so I can find information quickly.
   - Acceptance Criteria: 
@@ -93,9 +92,10 @@ To deploy the website on gitHub:
 Once those settings were saved the website deployed a couple of seconds after.
 ## Credits
 * The project was created using The Codes Institue's template.
-* The color pallet was chosen from
+* The color pallet was chosen from [coloors.co](https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c)
 * The fonts were imported form Google fonts
 * All images were created with ChatGPT
-* All images were optimized for web with 
-* All favicons were imported from
-* The logo was created using persons template from Canva
+* All images were optimized for web with [tinypng.com](https://tinypng.com/)
+* All favicons were imported from [favicon.io](https://favicon.io/)
+* Icons fot the footer and home page were imported from [fontawesome.com](https://fontawesome.com/)
+* The logo was created using @oxana-stoyantseva free template from [canva.com](https://www.canva.com/)
