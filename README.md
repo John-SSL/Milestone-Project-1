@@ -27,12 +27,16 @@ The font were imported from google fonts
   - Tasks:
     * Apply responsive design using Bootstrap.
     * Arrange the navigation based on best practices.
+
+    ![image of navbar from London Tours website](assets/test-images/user-story-1.png)
 2. As a tourist, I want a selection of different tours with various themes so I can book a tour that matches my personal interests.
   - Acceptance Criteria: 
     * The website has a separate page for the list of different guided tours.
     * Use card components for consistency in layout and responsiveness.
   - Tasks:
     * Create a Tours page featuring all different tour themes.
+
+    ![image of London Tours website page with different types of guided tours.](assets/test-images/user-story-2.png)
 3. As a Customer, I need to find essential information such as location, contact details and duration of each tour so I can plan my visit in the most efficient manner.
   - Acceptance Criteria: 
     * The website contains a dedicated section for contact details and location.
@@ -40,6 +44,8 @@ The font were imported from google fonts
   - Tasks:
     * Design and place a section for location and contact details.
     * Ensure that each card displays the duration and price of each tour.
+
+    ![image of London Tours website's footer with contact detaiils.](assets/test-images/user-story-3.png)
 4. As a customer, I want to be able to book a tour easily without frustration.
   - Acceptance Criteria: 
     * A booking form that includes all necessary fields.
@@ -49,6 +55,8 @@ The font were imported from google fonts
     * Implement a booking form from Bootstrap.
     * Implement HTML validation on the form.
     * Create a success page to direct users after the form is submitted correctly.
+
+    ![image of the booking form for London Tours website](assets/test-images/user-story-4.png)
 
 ## Technologies Used
 I used Git pod, a cloud based IDE, to create this project. After every change I would save and upload the code to gitHub using the git commands in the terminal.
@@ -62,23 +70,23 @@ To ensure a responsive design all layouts were checked for different size screen
 ### Automatic Testing
 W3C Markup Validation service used on all HTML pages and received no errors.
 
-![alt text](assets/test-images/w3html.png)
+![screenshot of w3c html validator test](assets/test-images/w3html.png)
 
 W3C CSS Validation service used on the style.css sheet and received no errors.
 
-![alt text](assets/test-images/w3css.png)
+![screenshot of w3c css validator test](assets/test-images/w3css.png)
 
 Used Lighthouse in the chrome developer tools to test performance, accessibility and best practices. This gave me a good overall score.
 
-![alt text](assets/test-images/lighthouse-score.png)
+![screenshot of chrome's lighthouse performance score](assets/test-images/lighthouse-score.png)
 
 The only error received on the accessibility section was an insufficient contrast ratio between the background and the foreground colors of the buttons.
 
-![alt text](assets/test-images/lighthouse-accessibility-error.png)
+![screenshot of chrome's lighthouse accessibility error](assets/test-images/lighthouse-accessibility-error.png)
 
-This was tested again using webaim.org. The contrast passed for graphical objects and user interface components. Since these colours were used for button components I decided to leave them.
+This was tested again using [webaim.org](https://webaim.org/resources/contrastchecker/). The contrast passed for graphical objects and user interface components. Since these colours were used for button components I decided to leave them.
 
-![alt text](assets/test-images/contrast-checker.png)
+![screenshot of webaim.org contrast checker test](assets/test-images/contrast-checker.png)
 ## Deployment
 The website was deployed with gitHub. For this I used Gitpod as a cloud based IDE to build the site, then I would use git commands to save and upload my work onto gitHub.
 
